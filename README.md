@@ -1,8 +1,7 @@
 # seaiceconcentration-NIMBUS6-SCAMS
 
-This project implements a geophysical inversion algorithm to estimate Sea Ice Concentration (SIC) using brightness temperature ($T_B$) data from the Scanning Microwave Spectrometer (SCAMS) aboard the NIMBUS-6 satellite. The repository provides tools to process raw radiometric data and derive high-latitude sea ice maps by modeling the microwave emission of the Arctic surface. 
-
-It accounts for atmospheric interference using ERA5 reanalysis data. Key Features:
+This project implements a geophysical inversion algorithm to estimate Sea Ice Concentration (SIC) using brightness temperature ($T_B$) data from the Scanning Microwave Spectrometer (SCAMS) aboard the NIMBUS-6 satellite. The repository provides tools to process raw radiometric data and derive high-latitude sea ice maps by modeling the microwave emission of the Arctic surface. It accounts for atmospheric interference using ERA5 reanalysis data. 
+Key Features:
 1. Multi-Channel Retrieval: Supports single-channel (22.23/31.65 GHz) and dual-channel inversion logic.
 2. Physical Modeling: Applies Radiative Transfer Models to correct for atmospheric opacity and water vapor.
 3. High-Performance Computing: Optimized with Numba (JIT) for fast processing of large satellite swaths.
